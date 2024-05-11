@@ -171,7 +171,7 @@ class BatchVoiceSynthesisApp(tk.Tk):
         for script in scripts:
             version, category, text = script
             timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
-            file_name = f"{version}_{category}_{timestamp}.wav"
+            file_name = f"{category}_{version}_{timestamp}.wav"
             file_path = os.path.join(save_dir, file_name)
 
         # 调用synthesize_speech_to_file时传递voice_name
