@@ -1,0 +1,1 @@
+python -m PyInstaller --onefile --noconfirm --windowed 批量合成语音v3.py
